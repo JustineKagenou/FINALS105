@@ -1,0 +1,137 @@
+html{
+scroll-behavior: smooth;
+}
+
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.topnav{
+display: flex;
+justify-content: center;
+background-color: #000000;
+overflow: hidden;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+.topnav a{
+color: #f2f2f2;
+text-align: center;
+padding: 14px 50px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover{
+background-color: #74046b;
+color: #ffffff;
+}
+.header{
+background-image: url("img/domain.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+height: 550px;
+display: grid;
+padding: 100px 50px;
+}
+.overlay{
+place-self: center;
+background-color: rgb(0, 0, 0, 0.5);
+text-align: center;
+color: #ffffff;
+padding: 80px;
+width: 80%;
+}
+
+.about{
+padding: 100px 50px;
+display: flex;
+background-color: #111211;
+color: #ffffff;
+}
+
+.content{
+place-self: center;
+text-align: center;
+line-height: 22px;
+padding: 50px 50px 50px 0px;
+width: 50%;
+letter-spacing: 0.8px;
+}
+
+.about-image{
+place-self: center;
+width: 50%;
+}
+
+.about-image img{
+width: 600px;
+height: auto;
+object-fit: cover;
+border: 2px solid #ffffff;
+}
+
+.responsive{
+padding: 6px 6px;
+display: inline-grid;
+width: 33%;
+box-sizing: border-box;
+}
+
+.hobbies-and-interest{
+color: #fffcfc;
+font-size: 15px;
+padding: 100px 100px;
+display: flex;
+background-color: #171313;
+background-image: url("..Background-gif");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+}
+.Contact {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.Contact a{
+    color: #f2f2f2;
+text-align: center;
+padding: 14px 50px;
+text-decoration: none;
+font-size: 17px;
+}
+.social-links {
+    margin-top: 20px;
+}
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.social-links img {
+    width: 100px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+.social-links a:hover {
+    transform: translateY(-5px);
+}
+.video-container{
+    place-self: center;
+    width: 500px;
+    height: auto;
+}
+.footer {
+    background: #0d0c0c;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+
+    width: 100%;
+    bottom: 0;
+}
